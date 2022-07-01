@@ -46,6 +46,100 @@ li {
   font-family: "Anek Malayalam", sans-serif;
 }
 
+section{
+  background-color:#793d2e83;
+  margin: 50px 80px;
+  display: flex;
+  
+}
+
+
+h1{
+  color: #381b14;
+  font-size: 30px;
+}
+
+h3{
+  margin-top: 30px;
+  color: #381b14a2;
+  margin-right: 100px;
+}
+
+
+p{
+  color: #381b14a2;
+  font-size: 15px;
+
+}
+
+h4{
+  color: #381b14;
+  font-size: 22px;
+  text-align: center;
+  margin: 40px 40px 40px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.boton-1{
+    
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    color: #381b14;
+    background-color: #c5a9a29d;
+    border: 3px double #381b14;
+    border-radius: 15px;
+    
+  }
+
+  .boton-1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+.buttons{
+  margin-top: 50px;
+}
+
+.boton-2{
+  margin-left: 70px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  font-style: italic;
+  color: #381b14;
+  background-color: #c5a9a29d;
+  border: 3px double #381b14;
+  border-radius: 15px;
+  
+}
+
+.boton-2:hover{
+  opacity: 0.6;
+  text-decoration: none;
+}
+.title-button{
+  color: #381b14;
+  border-radius: 10%;
+}
+
+.title{
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-image{
+  margin: 20px;
+}
+
 .logo {
   width: 120px;
   height: 120px;
@@ -71,3 +165,36 @@ li {
 .navenlace:hover {
   color: #c5a9a2;
 }
+
+
+.products{
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+  margin-right: 280px;
+  margin-bottom: 50px;
+}
+
+.img-product{
+  border-radius: 80%;
+  width: 200px;
+  height: 200px;
+}
+
+.products-image{
+  display: flex
+  
+}
+
+.ver-mas{
+  margin-top: 50px;
+  margin-left: 520px;
+  font-size: 17px;
+  color: #381b14;
+  font-family: 'Anek Malayalam', sans-serif;
+}
+
+.ver-mas:hover {
+  color: #c5a9a2;
+}
+
