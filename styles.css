@@ -5,6 +5,8 @@
 
 body {
   background-color: #c5a9a2;
+  position: relative;
+  padding-bottom: 20em;
 }
 
 @font-face {
@@ -79,6 +81,19 @@ h4{
   margin: 40px 40px 40px 40px;
   display: flex;
   justify-content: center;
+}
+
+footer{
+  background-color: #793d2e83;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1em 0;
+}
+
+h2{
+  color: rgba(0, 0, 0, 0.651);
+  margin-bottom: 10px;
 }
 
 .boton-1{
@@ -175,10 +190,24 @@ h4{
   margin-bottom: 50px;
 }
 
-.img-product{
+.uno-product{
   border-radius: 80%;
   width: 200px;
   height: 200px;
+  margin-right: 10px;
+}
+
+.dos-product{
+  border-radius: 80%;
+  width: 200px;
+  height: 200px;
+}
+
+.tres-product{
+  border-radius: 80%;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
 }
 
 .products-image{
@@ -198,3 +227,13 @@ h4{
   color: #c5a9a2;
 }
 
+.rights{
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+}
